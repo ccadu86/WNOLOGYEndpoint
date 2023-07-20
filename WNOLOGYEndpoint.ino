@@ -42,7 +42,7 @@ void setup() {
     request->send(200, "application/json", jsonString);
   });
 
-  server.begin(); // Inicia o servidor web
+  server.begin(); // Inicia o servidor aplicação Web
 }
 
 void loop() {
